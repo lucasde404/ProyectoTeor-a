@@ -62,6 +62,9 @@ VALUES (5, "2022-07-29", 13, "Otros", 8900);
 INSERT INTO Historial (ID_Historial, Fecha, Perro, Descripcion, Monto)
 VALUES (6, "2022-08-3", 14, "Guarderia", 23500);
 
+
 SELECT * FROM Historial;
+
+--7. Ejercicio de SQL pedido--
 
 SELECT Monto FROM Historial WHERE Fecha between "2022-07-01" and "2022-07-31"; 
