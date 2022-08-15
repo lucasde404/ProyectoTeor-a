@@ -39,4 +39,7 @@ VALUES (1, '2020-05-12', 'Fido' , 'Revisación', 1200),
        (2, '2021-03-10', 'Puppy' , 'Vacunacion', 3500),
        (3, '2021-02-08', 'Tobi' ,  'Vacunacion', 3500);
 
- 
+SELECT * 
+FROM PERRO 
+WHERE SEXO = 'Macho' AND FECHA_NAC between "2022-01-01" and "2022-07-01"; 
+
